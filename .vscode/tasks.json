@@ -8,7 +8,7 @@
 			"isBackground": true,
 			"dependsOn": "pip install (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/Functions\\TestHTTPTrigger"
+				"cwd": "${workspaceFolder}/Functions"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 			},
 			"problemMatcher": [],
 			"options": {
-				"cwd": "${workspaceFolder}/Functions\\TestHTTPTrigger"
+				"cwd": "${workspaceFolder}/Functions"
 			}
 		}
 	]
