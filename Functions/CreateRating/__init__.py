@@ -10,7 +10,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     if not name:
         try:
             req_body = req.get_json()
-        except ValueError:
+        except ValueEr r or:
             pass
         else:
             name = req_body.get('name')
